@@ -26,6 +26,7 @@ public class GitTestLogin {
 		driver.get("http://192.168.10.92/ashishtenant/login/");
 		driver.findElement(By.name("username")).sendKeys("ashishtenant");
 		driver.findElement(By.id("user-password")).sendKeys("123456");
+		driver.findElement(By.name("button")).click();
 	}
 	
 	@AfterSuite
