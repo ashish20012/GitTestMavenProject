@@ -28,7 +28,7 @@ public class GitTestLogin {
 		driver.findElement(By.id("user-password")).sendKeys("123456");
 		driver.findElement(By.name("button")).click();
 	}
-	/*Test comment
+	/*Test comment in first line
 	 * 
 	 * 
 	 * 
